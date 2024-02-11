@@ -1,0 +1,129 @@
+body {
+    font-family: 'Dongle';
+}
+
+.btn:focus {
+    border: none;
+    outline: none;
+}
+
+.banner-title {
+    font-size: 7.125rem;
+    /* font-size: 5rem; */
+}
+
+.banner-paragraph {
+    font-size: 3rem;
+}
+
+.top-25 {
+    top: 25%;
+}
+
+.navbar-brand{
+    background: linear-gradient(90deg, #67666A 0%, #C0C0C2 100%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+
+
+/* small mobile  */
+
+@media screen and (max-width: 320px) {
+    .banner-title {
+        font-size: 2rem;
+    }
+
+    .banner-paragraph {
+        font-size: 1rem;
+    }
+
+    .btn-lg{
+        font-size: 0.8rem;
+        padding: 4px;
+    }
+}
+
+/* medium mobile  */
+
+@media screen and (min-width: 321px) and (max-width:376px) {
+    .btn-lg{
+        font-size: 0.8rem;
+        padding: 8px;
+    }
+}
+
+/* large mobile  */
+
+@media screen and (min-width: 375px) and (max-width:426px) {
+    .banner-title {
+        font-size: 2rem;
+    }
+
+    .banner-paragraph {
+        font-size: 1rem;
+    }
+
+    .btn-lg{
+        font-size: 0.8rem;
+    }
+
+    .mb-top-35 {
+        top: 35%;
+    }
+}
+
+/* tab  */
+
+@media screen and (min-width: 426px) and (max-width:769px) {
+    .banner-title {
+        font-size: 4rem;
+    }
+
+    .banner-paragraph {
+        font-size: 2rem;
+    }
+
+    
+}
+
+/* laptop  */
+
+@media screen and (min-width: 769px) and (max-width:1025px) {
+    .menu-gap {
+        gap: 10vw;
+    }
+
+    .banner-paragraph {
+        font-size: 2rem;
+    }
+    .container{
+        max-width: 70vw;
+    }
+
+}
+
+/* large laptop  */
+
+@media screen and (min-width: 1024px) and (max-width:1441px) {
+    .menu-gap {
+        gap: 10vw;
+    }
+}
+
+
+/* extra large laptop  */
+
+@media screen and (min-width: 1440px) {
+    .menu-gap {
+        gap: 10vw;
+    }
+
+    .img-fluid {
+        width: 100vw;
+    }
+    .container{
+        max-width: 50vw;
+    }
+}
